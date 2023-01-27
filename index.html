@@ -6,42 +6,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Britlex</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
     <!-- Header -->
     <header>
-        <a href="#">Britlex</a>
+        <a href="#" class="link logo">Brit<span class="logo-part">lex</span></a>
         <nav>
-            <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">Skills</a></li>
-                <li><a href="">About Us</a></li>
-                <li><a href="">Pricing</a></li>
-                <li><a href="">Contacts</a></li>
+            <ul class="list">
+                <li><a href="" class="link nav-link current">Home</a></li>
+                <li><a href="" class="link nav-link">Skills</a></li>
+                <li><a href="" class="link nav-link">About Us</a></li>
+                <li><a href="" class="link nav-link">Pricing</a></li>
+                <li><a href="" class="link nav-link">Contacts</a></li>
+                <li><a href="./card.html">Card</a></li>
             </ul>
         </nav>
-        <button type="button">Let’s Talk</button>
+        <button type="button" class="header-btn">Let’s Talk</button>
     </header>
     <main>
         <!-- Hero -->
         <section>
-            <h1>Learn Any Foreign Language</h1>
-            <p>
+            <h1 class="hero-title">Learn Any Foreign Language</h1>
+            <p class="hero-desc">
                 With our teachers who write a program for each student, you will be
                 able to make your first sketch after the first lesson.
             </p>
-            <button type="button">Get started</button>
+            <button type="button" class="hero-btn">Get started</button>
             <img src="./img/learning-languages.jpeg" alt="girl listens audio" width="654" height="510" />
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, error
-                ipsa voluptatibus, et vel beatae illum magni omnis provident autem in
-                perferendis recusandae modi laboriosam veniam eius dolor vitae. Non.
-            </p>
+
         </section>
         <!-- Skills -->
         <section>
-            <h2>Skills</h2>
+            <h2 class="section-title">Skills</h2>
             <ul>
                 <li>
                     <img src="./img/Shared-goals-bro.jpeg" width="390" height="390" alt="speaking" />
@@ -98,7 +99,7 @@
         </section>
         <!-- About -->
         <section>
-            <h2>About Us</h2>
+            <h2 class="section-title">About Us</h2>
             <p>
                 The model offers a framework for discussing problems related to the
                 user's experience, as well as possible ways and means of solving them.
@@ -122,7 +123,7 @@
         </section>
         <!-- Pricing -->
         <section>
-            <h2>Pricing</h2>
+            <h2 class="section-title">Pricing</h2>
             <ul>
                 <li>
                     <img src="./img/online.jpeg" width="426" height="320" alt="online course">
@@ -150,7 +151,7 @@
         </section>
         <!-- Contacts -->
         <section>
-            <h2>Contact Us</h2>
+            <h2 class="section-title">Contact Us</h2>
             <img src="./img/contact.jpeg" alt="boy with planner" width="425" height="430">
             <p>Discover your current English level by taking our free online English test. Sign up to our newsletter for
                 learning tips
@@ -160,7 +161,7 @@
     </main>
     <footer>
         <a href="">Britlex</a>
-        <ul>
+        <ul class="list">
             <li><a href="">Terms and Conditions</a></li>
             <li><a href="">Privacy Policy</a></li>
             <li><a href="">Cookie Policy</a></li>
